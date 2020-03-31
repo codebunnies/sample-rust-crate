@@ -8,6 +8,6 @@ matrix:
     - rust: nightly
 script:
   - echo "====================="
-  - echo $MYSECRET
+  - echo $ANOTHERONE
   - cargo build --verbose --all
   - cargo test --verbose --all
